@@ -1,6 +1,6 @@
 # 🎥 **The Netflix Recommendation System**
 Recommend the similar movie(s) or TV show(s) based on Cosine Similarity algorithm.
-![cover](materials/cover.jpg)
+![cover](materials/cover(2).jpg)
 
 ## ✍ Description:
 
