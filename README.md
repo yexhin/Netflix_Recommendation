@@ -9,8 +9,8 @@ Recommend the similar movie(s) or TV show(s) based on Cosine Similarity algorith
 
 ## ✪ Usage:
 ### The project is designed to be completeted these following steps:
-**1. Data collecting:** Download the dataset from Kaggle platform [here](https://www.kaggle.com/datasets/ashfakyeafi/netflix-movies-and-shows-dataset)
-**/n2. Data preparation:**
+**1. Data collecting:** Download the dataset from Kaggle platform [here](https://www.kaggle.com/datasets/ashfakyeafi/netflix-movies-and-shows-dataset) <space> <space>
+**2. Data preparation:**
    - Take an overall look the dataset.
    - Cleaning data: Fill the missing values
 **####3. Exploration Data Analysis:**
