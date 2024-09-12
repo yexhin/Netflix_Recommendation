@@ -9,27 +9,27 @@ Recommend the similar movie(s) or TV show(s) based on Cosine Similarity algorith
 
 ## ✪ Usage:
 ### The project is designed to be completeted these following steps:
-####**1. Data collecting:** Download the dataset from Kaggle platform [here](https://www.kaggle.com/datasets/ashfakyeafi/netflix-movies-and-shows-dataset)
-####**2. Data preparation:**
+**####1. Data collecting:** Download the dataset from Kaggle platform [here](https://www.kaggle.com/datasets/ashfakyeafi/netflix-movies-and-shows-dataset)
+**####2. Data preparation:**
    - Take an overall look the dataset.
    - Cleaning data: Fill the missing values
-####**3. Exploration Data Analysis:**
+**####3. Exploration Data Analysis:**
    - Visualize the distribution of the contents regarding the movies/TV shows such as the rating, the countries to understand trends in content production and viewer preferences.
    - Genarate the images of the common words in the description as well as the listed-in.
-####**4. Feature Engineering:**
+**####4. Feature Engineering:**
 Text cleaning is essential to standardize and simplify the input data, ensuring more accurate analysis during the TF-IDF transformation.
    - Create a class TextCleaner combinding several steps to cleaning the text:
      a. Seperate text
      b. Remove space
      b. Remove punctuation characters
    - Create the BAG OF WORDS of each the objects to calculate.
-####**5. The TF-IDF and Cosine Similarity:**
+**####5. The TF-IDF and Cosine Similarity:**
    - After we generate a new dataframe containing 2 columns: Type and BagOfWords:
      a. Transforming the value BagOfWords into the matrix by using TfidfVectorizer()
      b. Calculating the similarity among the words of matrix by using Cosine-similarity formula.
      c. Save the results of the matrix, the cosine-similar into our files and the new dataframe we made from it.
 
-####**6. Build the recommendation system:**
+**####6. Build the recommendation system:**
   -  Create the class Netfixrec: sorting the values 'similarity' we calculated previously to yeild the list of the similar movie(s) or TV show(s).
   -  Output the result.
 # 🗳️ The sample results:
